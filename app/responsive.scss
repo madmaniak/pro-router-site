@@ -1,0 +1,46 @@
+@media screen and (min-width: 1515px) {
+  .tiles { width: 930px }
+}
+
+@media screen and (max-width: 1410px) {
+  ._sentence {
+    flex: 1;
+    text-align: center;
+  }
+  ._subscribe {
+    margin-right: 20px;
+  }
+  ._mainmenu {
+    flex: 1;
+    ul {
+      flex: 1;
+      justify-content: space-around;
+      display: flex;
+    }
+  }
+  .tiles {
+    min-width: 450px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    .actions { text-align: right }
+  }
+  .tile { min-width: 410px }
+}
+
+@media screen and (max-width: 1090px) {
+  ._sentence, ._logo, ._subscribe, ._mainmenu, ._router {
+    flex: 1;
+    min-width: 550px;
+    margin: 50px 0;
+  }
+  ._logo, ._subscribe {
+    display: flex;
+    justify-content: center;
+  }
+  ._subscribe { order: 2 }
+}
+
+@media screen and (max-width: 640px) {
+  .tile, h3 { font-size: 36pt; line-height: 60px }
+  .actions { text-align: center !important }
+}

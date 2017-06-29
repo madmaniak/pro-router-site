@@ -1,0 +1,25 @@
+._mainmenu {
+  display: flex;
+  width: 385px;
+  margin: 80px 136px 0 0;
+  justify-content: flex-end;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      text-align: right;
+
+      ._ref {
+        font-size: 30pt;
+        margin-bottom: 36px;
+        letter-spacing: 1.94px;
+        color: #ae81ff;
+      }
+      ._ref.active {
+        color: #ae0a6c;
+      }
+    }
+  }
+}

@@ -5,10 +5,9 @@ tag #app
 
 	def render
 		<self>
-			<.top>
+			<.main>
 				<logo>
 				<sentence>
 				<subscribe>
-			<.main>
-				<.menu> '1'
+				<mainmenu>
 				<router>

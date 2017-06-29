@@ -18,21 +18,67 @@ html, body {
 body {
   display: flex;
   font-family: 'Blogger';
+  font-size: 18pt;
+}
+strong {
+  font-family: 'BloggerBold';
+  font-weight: normal;
 }
 #app {
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.top {
+.main {
   display: flex;
   width: 100%;
   max-width: 1800px;
   min-height: 300px;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
-.top > * { white-space: nowrap }
-.main { flex: 7 }
+
+._logo, ._sentence, ._subscribe { white-space: nowrap; align-self: center }
+
+._router {
+  margin: 80px 0 0 48px;
+  flex: 1;
+}
+
+h1 {
+  font-size: 144pt;
+  letter-spacing: 1.35px;
+  font-weight: normal;
+  font-family: 'BloggerMedium';
+  margin: 145px 0;
+}
+
+h2 {
+  margin: 0 0 15px 0;
+  font-size: 40pt;
+  font-weight: normal;
+  letter-spacing: 1.35px;
+}
+
+h3 {
+  color: #ae81ff;
+  font-size: 18pt;
+  font-weight: normal;
+  margin: 32px 0 0;
+}
+
+.tiles {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tile {
+  width: 395px;
+  line-height: 32px;
+}
