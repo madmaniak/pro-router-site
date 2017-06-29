@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Blogger';
+  src: url('Blogger_Sans.woff') format('woff');
+}
+@font-face {
+  font-family: 'BloggerMedium';
+  src: url('Blogger_Sans-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'BloggerBold';
+  src: url('Blogger_Sans-Bold.woff') format('woff');
+}
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+body {
+  display: flex;
+  font-family: 'Blogger';
+}
+#app {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top {
+  display: flex;
+  width: 100%;
+  max-width: 1800px;
+  min-height: 300px;
+  flex-direction: row;
+  align-items: center;
+}
+.top > * { white-space: nowrap }
+.main { flex: 7 }

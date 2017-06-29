@@ -4,4 +4,11 @@ tag #app
 		R.init helpers: L
 
 	def render
-		<self> <router>
+		<self>
+			<.top>
+				<logo>
+				<sentence>
+				<subscribe>
+			<.main>
+				<.menu> '1'
+				<router>
