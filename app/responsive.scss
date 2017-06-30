@@ -38,9 +38,10 @@
     justify-content: center;
   }
   ._subscribe { order: 2 }
+  ._logo { margin-top: 100px }
 }
 
 @media screen and (max-width: 640px) {
-  .tile, h3 { font-size: 36pt; line-height: 60px }
+  .tile, h3 { font-size: 32pt; line-height: 60px }
   .actions { text-align: center !important }
 }

@@ -24,6 +24,9 @@ strong {
   font-family: 'BloggerBold';
   font-weight: normal;
 }
+._ref:hover, a:hover {
+  opacity: 0.7;
+}
 #app {
   display: flex;
   flex: 1;
@@ -53,7 +56,8 @@ h1 {
   letter-spacing: 1.35px;
   font-weight: normal;
   font-family: 'BloggerMedium';
-  margin: 145px 0;
+  margin: 0;
+  line-height: 1.7;
 }
 
 h2 {
