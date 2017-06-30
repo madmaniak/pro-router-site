@@ -10,21 +10,22 @@
   font-family: 'BloggerBold';
   src: url('Blogger_Sans-Bold.woff') format('woff');
 }
+html { height: 100% }
 html, body {
   padding: 0;
   margin: 0;
-  height: 100%;
 }
 body {
   display: flex;
   font-family: 'Blogger';
   font-size: 18pt;
+  min-height: 100%;
 }
 strong {
   font-family: 'BloggerBold';
   font-weight: normal;
 }
-._ref:hover, a:hover {
+._ref:hover, ._switch:hover, a:hover {
   opacity: 0.7;
 }
 #app {
@@ -33,6 +34,7 @@ strong {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  background: #fff;
 }
 .main {
   display: flex;
@@ -44,7 +46,7 @@ strong {
   flex-wrap: wrap;
 }
 
-._logo, ._sentence, ._subscribe { white-space: nowrap; align-self: center }
+._logo, ._sentence, ._preview, ._subscribe { white-space: nowrap; align-self: center }
 
 ._router {
   margin: 80px 0 0 48px;
@@ -65,6 +67,7 @@ h2 {
   font-size: 40pt;
   font-weight: normal;
   letter-spacing: 1.35px;
+  line-height: 1;
 }
 
 h3 {
@@ -90,3 +93,5 @@ h1.smaller { font-size: 126pt; line-height: 0.95; text-align: justify }
 }
 
 .green { color: #51f593 }
+.clickable { cursor: pointer }
+.center { text-align: center }

@@ -1,0 +1,17 @@
+._preview {
+  margin: 0 !important;
+  width: 500px;
+  height: 270px;
+  color: #ae0a6c;
+  white-space: normal !important;
+  overflow: hidden;
+
+  h3 {
+    margin: 0;
+    width: 500px;
+    height: 270px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+  }
+}
