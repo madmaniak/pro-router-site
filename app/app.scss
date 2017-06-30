@@ -74,6 +74,8 @@ h3 {
   margin: 32px 0 0;
 }
 
+h1.smaller { font-size: 126pt; line-height: 0.95; text-align: justify }
+
 .tiles {
   display: flex;
   flex: 1;
@@ -86,3 +88,5 @@ h3 {
   width: 395px;
   line-height: 32px;
 }
+
+.green { color: #51f593 }

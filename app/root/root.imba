@@ -38,4 +38,4 @@ tag root
 					<.tile.actions>
 						<ref.madness> "STOP THE MADNESS"
 						<br>
-						<ref> "WITNESS ME!"
+						<ref view="demo"> "WITNESS ME!"
