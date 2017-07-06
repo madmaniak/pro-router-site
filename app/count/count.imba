@@ -8,7 +8,7 @@ tag count
 					<plusminus>
 					<h2.center> "= { R.param('amount') }"
 				<.tile>
-					<h3> "{R.param('feeling')} Coffeescript"
+					<h3> "Coffeescript"
 					<pre>
 						<code.coffeescript>
 							"# cast to number\n"
@@ -26,4 +26,4 @@ tag count
 							"R.write amount:\n"
 							"  R.param('amount') - 1\n"
 				<h1.smaller>
-					<ref.green view="date"> "MORE IS MORE THAN LESS"
+					<ref.green view="date"> "HOW MANY DO YOU HAVE?"

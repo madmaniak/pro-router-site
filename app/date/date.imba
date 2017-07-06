@@ -80,3 +80,6 @@ tag date
 					"\n"
 					"    valid: (date) ->\n"
 					"      ( date || R.param('date') ) > h.no_time h.today()\n"
+			<h1>
+				<ref.green view="showoff">
+					"YES PLEASE"
