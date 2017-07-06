@@ -15,8 +15,8 @@ tag switcher
 							else "WHERE IS MY BUDDY?"
 				<.tile>
 					<pre>
-						<code.coffeescript>
-							"# on click\n"
+						<code.javascript>
+							"// on click\n"
 							"R.toggle('demon')"
 				<h1.smaller>
 					<ref.green view="insert"> "KEEP ON MOVING"

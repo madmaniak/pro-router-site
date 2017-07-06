@@ -4,9 +4,11 @@ tag count
 		<self>
 			<.tiles>
 				<.tile>
+					<h2> "HOW MANY DAYS OFF DO YOU NEED {R.param('name').toUpperCase}?"
 					<plusminus>
 					<h2.center> "= { R.param('amount') }"
 				<.tile>
+					<h3> "{R.param('feeling')} Coffeescript"
 					<pre>
 						<code.coffeescript>
 							"# cast to number\n"

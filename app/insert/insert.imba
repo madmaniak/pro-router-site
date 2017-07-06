@@ -1,25 +1,21 @@
 tag insert
 
-	def setup
-		dom.focus()
-
 	def render
 		<self>
-			<h2> "HOW DO YOU FEEL ABOUT COFFEESCRIPT?"
+			<h2> "WHAT'S YOUR NAME?"
 			<.tiles>
 				<.tile>
-					<paraminput key='feeling'>
+					<paraminput key='name' autofocus='autofocus'>
 				<.tile>
 					<pre>
 						<code.html>
 							"<!--framework independent tip-->\n"
 							"<input type='text'\n"
-							"  value=R.param('feeling')>"
-					<h3>
-						"Coffeescript"
-						" is {R.param('feeling')}" if R.param('feeling')
+							"  value=R.param('name')>"
 					<pre>
-						<code.coffeescript>
-							"# on input keyup\n"
-							"if R.param('feeling') != value\n"
-							"  R.write 'feeling', value"
+						<code.javascript>
+							"// on input keyup\n"
+							"if(R.param('name') != value)\n"
+							"  R.write('name', value)"
+				<h1.smaller>
+					<ref.green view="count"> "WELCOME {R.param('name')}" if R.param('name')
