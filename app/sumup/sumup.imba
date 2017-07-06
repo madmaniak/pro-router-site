@@ -1,3 +1,7 @@
+extend tag img
+	attr width
+	attr height
+
 tag sumup
 
 	def render
@@ -12,7 +16,7 @@ tag sumup
 			"."
 			if R.param('image'):src
 				<h3> "I drew it for you"
-				<img src="{R.param('image'):src}">
+				<img src="{R.param('image'):src}" width=300 height=300>
 			<br>
 			"Cheers!"
 			<br>
