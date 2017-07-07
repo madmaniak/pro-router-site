@@ -36,6 +36,6 @@ tag root
 					<.tile>
 						<h1> "NOW"
 					<.tile.actions>
-						<ref.madness view="tutorial"> "STOP THE MADNESS"
+						<ref.madness view="docs"> "STOP THE MADNESS"
 						<br>
 						<ref view="demo"> "WITNESS ME!"
