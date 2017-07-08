@@ -1,5 +1,5 @@
-._subscribe {
-  margin: 70px 0 70px 180px;
+._subscribe-button {
+  margin: 18px 0 70px 180px;
   letter-spacing: 1.35px;
 
   ._ref {
@@ -10,4 +10,14 @@
 
     strong { font-size: 12.1pt; font-weight: normal }
   }
+}
+
+#mce-EMAIL {
+  width: 177px;
+  margin: 70px 0 0 180px;
+  padding: 5px;
+  font-family: 'BloggerMedium';
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
