@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 1410px) {
   ._sentence {
-    flex: 1;
+    flex: 1 1 0%;
     text-align: center;
   }
 
@@ -12,9 +12,9 @@
     margin-right: 20px;
   }
   ._mainmenu {
-    flex: 1;
+    flex: 1 1 0%;
     ul {
-      flex: 1;
+      flex: 1 1 0%;
       justify-content: space-around;
       display: flex;
     }
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1090px) {
   ._sentence, ._preview, ._logo, ._subscribe, ._mainmenu, ._router, #mce-EMAIL {
-    flex: 1;
+    flex: 1 1 0%;
     min-width: 550px;
     margin: 50px 0;
   }

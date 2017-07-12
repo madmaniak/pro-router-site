@@ -1,2 +1,0 @@
-require './dispatcher'
-require './helpers'

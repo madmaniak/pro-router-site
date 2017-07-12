@@ -1,4 +1,4 @@
-L.mixin format: do |n|
+L:format = do |n|
 	"{if n < 10 then 0 else ''}{n}"
 
 var h =
