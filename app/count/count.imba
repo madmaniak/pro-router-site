@@ -20,10 +20,10 @@ tag count
 							"R.setters.amount = (v) ->\n"
 							"  v if v > 1\n\n"
 							"# on +\n"
-							"R.write amount:\n"
+							"R.write 'amount',\n"
 							"  R.param('amount') + 1\n\n"
 							"# on -\n"
-							"R.write amount:\n"
+							"R.write 'amount',\n"
 							"  R.param('amount') - 1\n"
 				<h1.smaller>
 					<ref.green view="date"> "HOW MANY DO YOU HAVE?"

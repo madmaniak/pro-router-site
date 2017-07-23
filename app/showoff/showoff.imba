@@ -47,7 +47,7 @@ tag mycanvas < canvas
 			context('2d').stroke(path)
 
 	def ontouchend
-		R.write image: dom
+		R.write :image, dom
 
 tag clear_canvas
 
@@ -55,7 +55,7 @@ tag clear_canvas
 		<self><h1.smaller._ref.green> "clear!"
 
 	def ontap
-		R.write image: ''
+		R.write :image, ''
 
 
 tag showoff

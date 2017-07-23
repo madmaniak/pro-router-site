@@ -7,7 +7,7 @@ var h =
 	change: do |what, n|
 		var date = R.param('date')
 		date["set{what}"]( date["get{what}"]() + n )
-		R.write date: date
+		R.write 'date', date
 
 	incr_day: do h.change "Date", 1
 	decr_day: do h.change "Date", -1
@@ -65,7 +65,7 @@ tag date
 					"  change: (what, n) ->\n"
 					"    date = R.param('date')\n"
 					"    date[\"set#\{what\}\"]( date[\"get#\{what\}\"]() + n )\n"
-					"    R.write date: date\n"
+					"    R.write 'date', date\n"
 					"\n"
 					"    incr_day:   -> h.change \"Date\", 1\n"
 					"    decr_day:   -> h.change \"Date\", -1\n"

@@ -34,8 +34,6 @@ tag docs
 					<br>
 					<pre><code.javascript>
 						"R.write('attribute', value)\n"
-						"// or\n"
-						"R.write(\{ attribute: value \})"
 					"Set new values for given keys. In both cases you can give more attributes. It will use a setter function if defined."
 					<br>
 					<br>

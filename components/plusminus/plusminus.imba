@@ -23,7 +23,7 @@ tag plusminus_plus < li
 	def ontap
 		if @incr
 		then @incr()
-		else R.write amount: R.param('amount') + 1
+		else R.write :amount, R.param('amount') + 1
 
 tag plusminus_minus < li
 	prop decr
@@ -33,4 +33,4 @@ tag plusminus_minus < li
 	def ontap
 		if @decr
 		then @decr()
-		else R.write amount: R.param('amount') - 1
+		else R.write :amount, R.param('amount') - 1
