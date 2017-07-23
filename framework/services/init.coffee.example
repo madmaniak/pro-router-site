@@ -14,6 +14,7 @@ global.L =
   defaults: require 'lodash/defaults'
   throttle: require 'lodash/throttle'
   toPairs: require 'lodash/toPairs'
+  truncate: require 'lodash/truncate'
 
 global.Views = ['insert','count','sumup','date','showoff','docs','demo','root','switcher']
 require '../../components/code/code.scss'
