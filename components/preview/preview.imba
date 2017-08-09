@@ -4,4 +4,4 @@ tag preview
 		@r = R
 
 	def render
-		<self> <h3>	JSON.stringify(@r:params).replace(/"/g, ' ')
+		<self> <h3>	L.truncate JSON.stringify(@r:params).replace(/"/g, ' '), length: 90
