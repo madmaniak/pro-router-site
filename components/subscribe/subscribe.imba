@@ -5,7 +5,7 @@ tag subscribe_button
 
 	def render
 		<self>
-			<._ref>
+			<._ref.clickable>
 				"SUBSCRIBE"
 				<br>
 				<strong> "FOR MORE PRO TOOLS"
