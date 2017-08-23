@@ -29,7 +29,7 @@
     "backbone-events-standalone": "^0.2.7",
     "imba": "somebee/imba",
     "lodash": "^4.11.1",
-    "pro-router": "4.2.0",
+    "pro-router": "4.3.0",
     "canvas-png-compression": "0.0.3"
   }
 }
