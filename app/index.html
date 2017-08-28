@@ -2,11 +2,46 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <style>
+      html { height: 100% }
+      html, body {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        font-family: courier;
+        font-size: 18pt;
+        min-height: 100%;
+      }
+      #app {
+        display: flex;
+        flex: 1 1 0%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+      }
+      .blink_me {
+        animation: blinker 1.7s ease infinite;
+      }
+      @keyframes blinker {
+        50% { opacity: 0; }
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div style="color: #ae81ff; font-size: 72pt; text-align: center">
+        {
+        <div class="blink_me" style="font-size: 22pt"> loading:
+          <div style="color: #000"> "~200kb" </div>
+        </div>
+        }
+      </div>
+    </div>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script src="/bundle.js" charset="utf-8"></script>
   </body>
 </html>

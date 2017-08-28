@@ -10,31 +10,15 @@
   font-family: 'BloggerBold';
   src: url('Blogger_Sans-Bold.woff') format('woff');
 }
-html { height: 100% }
-html, body {
-  padding: 0;
-  margin: 0;
-}
-body {
-  display: flex;
-  font-family: 'Blogger';
-  font-size: 18pt;
-  min-height: 100%;
-}
+body { font-family: 'Blogger' }
+#app { justify-content: flex-start }
+
 strong {
   font-family: 'BloggerBold';
   font-weight: normal;
 }
 ._ref:hover, ._switch:hover, a:hover {
   opacity: 0.7;
-}
-#app {
-  display: flex;
-  flex: 1 1 0%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  background: #fff;
 }
 .main {
   display: flex;
