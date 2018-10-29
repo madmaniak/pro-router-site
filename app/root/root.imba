@@ -2,7 +2,7 @@ tag root
 
 	def render
 		<self>
-			<h2> "GODDAMN GOOD FEATURES"
+			<h2> "WOHOO! EXCITING FEATURES"
 			<.tiles>
 				<.tile>
 					<h3> "NEW PARADIGM"

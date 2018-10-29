@@ -22,7 +22,7 @@ tag logo
 	def render
 		<self>
 			<ref go="/">
-				<svg:svg width="350" viewBox="0 0 329.9245 95.354691">
+				<svg:svg width="300" viewBox="0 0 250 95.354691">
 					<svg:text style="line-height:125%" x="36.909" y="41.764" font-size="55.069" letter-spacing="2.692" fill="#ae81ff">
 						"\"\""
 					<svg:text style="line-height:125%" x="124.447" y="40.806" font-size="55.069" letter-spacing="2.692" fill="#ae81ff">
