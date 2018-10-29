@@ -20,12 +20,15 @@ tag logo
 		@r = R
 
 	def render
+		if @r:view:length > 4
+		then var y = 35; var size = 30
+		else var y = 40; var size = 55.069
 		<self>
 			<ref go="/">
 				<svg:svg width="300" viewBox="0 0 250 95.354691">
 					<svg:text style="line-height:125%" x="36.909" y="41.764" font-size="55.069" letter-spacing="2.692" fill="#ae81ff">
 						"\"\""
-					<svg:text style="line-height:125%" x="124.447" y="40.806" font-size="55.069" letter-spacing="2.692" fill="#ae81ff">
+					<svg:text style="line-height:125%" x="124.447" y=y font-size=size letter-spacing="2.692" fill="#ae81ff">
 						if @r:view != @r:root and @r:view != 'not_found'
 							@r:view
 						else "\{ \}"
