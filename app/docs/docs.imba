@@ -9,13 +9,20 @@ tag docs
 					<pre>
 						<code.html>
 							"<script src=\"//unpkg.com/pro-router@4.2.0/pro-router-standalone.min.js\"></script>"
+							<br>
+							"<!-- or -->"
+							<br>
+							"<script src=\"//unpkg.com/pro-router@4.2.0/pro-router.min.js\"></script>"
 					<h3> "WEBPACK"
 					<pre>
 						<code.bash>
 							"npm install --write pro-router"
 					<pre>
 						<code.javascript>
-							"require('pro-router')"
+							"// example.com/#/view/\n"
+							"require('pro-router/standalone')\n"
+							"// or example.com/view\n"
+							"require('pro-router/router')"
 					<h2> "USAGE"
 					<pre><code.javascript> "R.view"
 					"Value which you should use to render a proper component in your render method. It's eager calculated after url change."
