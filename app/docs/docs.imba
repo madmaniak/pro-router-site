@@ -8,11 +8,11 @@ tag docs
 					<h3> "CDN"
 					<pre>
 						<code.html>
-							"<script src=\"//unpkg.com/pro-router@4.2.0/pro-router-standalone.min.js\"></script>"
+							"<script src=\"//unpkg.com/pro-router@4.3.0/pro-router-standalone.min.js\"></script>"
 							<br>
 							"<!-- or -->"
 							<br>
-							"<script src=\"//unpkg.com/pro-router@4.2.0/pro-router.min.js\"></script>"
+							"<script src=\"//unpkg.com/pro-router@4.3.0/pro-router.min.js\"></script>"
 					<h3> "WEBPACK"
 					<pre>
 						<code.bash>
